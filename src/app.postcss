@@ -1,0 +1,53 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("/fonts/Hey_Comic.ttf");
+@import url("/fonts/KGRedHands.tff")
+
+.bg-alt px-3 {
+    color: #cadad3;
+    background-color: #cadad3;
+    background: #cadad3;
+}
+
+.px-3 {
+    background: #cfddd9;
+}
+
+section {
+    @apply py-5;
+}
+
+.max-w-6xl {
+    background : #cadad3;
+}
+
+.max-w-6xl py-3 {
+    background : #cadad3;
+}
+
+.flex {
+    background: #cadad3;
+    background-color: #cadad3;
+    color: #cadad3;
+}
+
+@font-face {
+    font-family: "Hey_Comic";
+    src:url("../static/fonts/Hey_Comic.tff");
+}
+
+@font-face {
+    font-family: "KGRedHands";
+    src:url("../static/fonts/KGRedHands.tff");
+}
+
+p {
+  @apply font-updog;
+}
+
+h1,h2,h3,h4 {
+  @apply font-Hey_Comic;
+}
+
